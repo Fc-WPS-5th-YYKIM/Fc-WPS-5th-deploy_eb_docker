@@ -11,7 +11,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(ROOT_DIR, '.static_root')
 
 # 배포모드니까 DEBUG는 False
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = config_secret_deploy['django']['allowed_hosts']
 
 # Database
